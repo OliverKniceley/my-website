@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Georgia;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .top-centered {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Georgia;
+  }
+  
+  .left {
+    position: absolute;
+    left: 32px;
+    top: 16px;
+  }
+  .right {
+    position: absolute;
+    right: 32px;
+    top: 16px;
+  }
+  .buttonYes {
+    border: none;
+    background: #ffa3b1;;
+    color: #00ff4c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Georgia;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+  }
+  .buttonNo {
+    border: none;
+    background: #ffa3b1;;
+    color: #ff0000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Georgia;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+  
+  }
+  
+  .buttonYes:hover {background-color: #3e8e41}
+  
+  .buttonYes:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666666;
+  }
+  .buttonNo:hover {background-color: #750000}
+  
+  .buttonNo:active {
+      background-color: #750000;
+      box-shadow: 0 5px #666;
+  }
